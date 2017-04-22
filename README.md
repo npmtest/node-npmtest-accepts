@@ -1,6 +1,6 @@
 # npmtest-accepts
 
-#### basic test coverage for  [accepts (v1.3.3)](https://github.com/jshttp/accepts#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-accepts.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-accepts) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-accepts.svg)](https://travis-ci.org/npmtest/node-npmtest-accepts)
+#### basic test-coverage for  [accepts (v1.3.3)](https://github.com/jshttp/accepts#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-accepts.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-accepts) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-accepts.svg)](https://travis-ci.org/npmtest/node-npmtest-accepts)
 
 #### Higher-level content negotiation
 
@@ -94,7 +94,8 @@
         "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
         "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
     },
-    "version": "1.3.3"
+    "version": "1.3.3",
+    "bin": {}
 }
 ```
 
